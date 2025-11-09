@@ -1,0 +1,570 @@
+Email Text,Label
+"Subject: Urgent: Confirm your bank account details
+
+Dear Customer,
+
+We detected suspicious activity on your account. Please verify your information immediately by visiting your account page: http://example.com/verify
+
+Thank you,
+Bank Security Team",1
+"Subject: Action Required: Your package delivery failed
+
+Hello,
+
+We attempted to deliver your parcel but couldn't. Please reschedule delivery here: http://example.com/reschedule
+
+Regards,
+Delivery Team",1
+"Subject: Important: Password Reset Request
+
+Hi,
+
+We received a request to reset your password. If this wasn't you, please secure your account at http://example.com/reset
+
+Security Team",1
+"Subject: Final Notice: Invoice Overdue
+
+Dear Client,
+
+Your invoice #12345 is overdue. Please view and pay the invoice to avoid late fees: http://example.com/invoice
+
+Billing Department",1
+"Subject: Verify your email to keep your account
+
+Hello,
+
+Your account will be deactivated unless you verify your email address within 24 hours: http://example.com/verify-email
+
+Support",1
+"Subject: You've received a secure document
+
+Hi,
+
+A colleague has shared a secure document with you. View it here: http://example.com/document
+
+Document Service",1
+"Subject: Security Alert: Unusual sign-in attempt
+
+Dear User,
+
+We noticed a sign-in from a new device. If this wasn't you, please review activity: http://example.com/security
+
+Account Security",1
+"Subject: Confirm your payment information
+
+Hello,
+
+Please update your payment method to continue your subscription: http://example.com/update-payment
+
+Subscription Team",1
+"Subject: Urgent: Tax refund requires verification
+
+Dear Taxpayer,
+
+You are eligible for a tax refund. Verify your details to claim it: http://example.com/tax-refund
+
+Tax Office",1
+"Subject: Your voicemail is waiting
+
+Hi,
+
+You have a new voicemail. Listen now: http://example.com/voicemail
+
+Voicemail Service",1
+"Subject: Important: Change to your delivery address
+
+Hello,
+
+We couldn't confirm your delivery address. Please update it here: http://example.com/update-address
+
+Shipping Dept",1
+"Subject: Congratulations — You've won a prize!
+
+Dear Winner,
+
+You've been selected to receive a gift. Claim your prize by completing this form: http://example.com/claim
+
+Promotions",1
+"Subject: Notice: Account limit reached
+
+Hi,
+
+Your storage limit is nearly full. Clear space or upgrade: http://example.com/upgrade
+
+Storage Team",1
+"Subject: Confirm salary details for payroll
+
+Hello,
+
+Please confirm your bank details for the upcoming payroll: http://example.com/payroll
+
+HR Department",1
+"Subject: Action needed: Recent purchase not recognized
+
+Dear Customer,
+
+We noticed a purchase you may not recognize. Review your transactions: http://example.com/transactions
+
+Fraud Team",1
+"Subject: Free gift card for you — verify details
+
+Hi,
+
+We have a free gift card waiting. Verify your eligibility: http://example.com/gift
+
+Offers Team",1
+"Subject: Important: Update your account settings
+
+Hello,
+
+We updated our terms. Review and accept the new settings: http://example.com/settings
+
+Support",1
+"Subject: Confirm your social media account
+
+Hi,
+
+Please confirm your account to avoid suspension: http://example.com/confirm
+
+Social Media Support",1
+"Subject: Unauthorized login detected — reset password
+
+Dear User,
+
+We blocked a suspicious login. Reset your password immediately: http://example.com/reset-password
+
+Security",1
+"Subject: Payment failed — update billing info
+
+Hello,
+
+Your recent payment failed. Update your billing information to avoid service interruption: http://example.com/billing
+
+Billing Team",1
+"Subject: Your account needs re-verification
+
+Hi,
+
+For security reasons we require re-verification of your account: http://example.com/reverify
+
+Account Services",1
+"Subject: Important: Review your tax documents
+
+Dear Customer,
+
+Your tax documents are ready for review: http://example.com/taxdocs
+
+Tax Services",1
+"Subject: Immediate action required: Verify identity
+
+Hi,
+
+We need to confirm your identity to proceed. Upload documents here: http://example.com/identity
+
+Verification Team",1
+"Subject: Confirm recent changes to your profile
+
+Hello,
+
+We detected changes to your profile. Confirm they were made by you: http://example.com/profile-activity
+
+Support",1
+"Subject: Your subscription will renew — verify payment
+
+Hi,
+
+Your subscription is about to renew. Confirm payment details: http://example.com/confirm-renewal
+
+Subscriptions",1
+"Subject: New login from unknown location
+
+Dear User,
+
+A login from a new location was detected. Review activity: http://example.com/review
+
+Security Alerts",1
+"Subject: Action required: Accept updated privacy policy
+
+Hello,
+
+Please accept our updated privacy policy to continue using the service: http://example.com/privacy
+
+Legal Team",1
+"Subject: Unusual activity on your merchant account
+
+Hi,
+
+We noticed an unusual transaction in your merchant account. Review immediately: http://example.com/merchant
+
+Payments Team",1
+"Subject: Confirm your mobile number
+
+Dear User,
+
+Please confirm your mobile number to restore access: http://example.com/confirm-phone
+
+Support Team",1
+"Subject: Important: Verify your healthcare portal
+
+Hello,
+
+You must verify your account to view medical records: http://example.com/health-verify
+
+Healthcare Portal",1
+"Subject: Account suspension warning
+
+Hi,
+
+Your account will be suspended unless you verify it now: http://example.com/unsuspend
+
+Support",1
+"Subject: Confirm delivery details for your order
+
+Dear Customer,
+
+Please confirm your delivery date: http://example.com/confirm-delivery
+
+E-commerce Team",1
+"Subject: New message from HR — open now
+
+Hello,
+
+HR sent you a confidential message. View it here: http://example.com/hr-message
+
+HR Department",1
+"Subject: Important: Verify your student account
+
+Hi,
+
+Your student account requires verification to access records: http://example.com/student-verify
+
+University IT",1
+"Subject: Reward waiting — confirm your details
+
+Dear User,
+
+A reward is waiting in your account. Confirm details to claim: http://example.com/reward
+
+Rewards Team",1
+"Subject: Action required: Confirm recent security update
+
+Hello,
+
+Please confirm the recent update to your security settings: http://example.com/security-update
+
+Site Admin",1
+"Subject: Confirm billing address for your order
+
+Hi,
+
+We need to confirm your billing address before shipping: http://example.com/billing-address
+
+Orders",1
+"Subject: Important: Review your account activity
+
+Dear Customer,
+
+Please review recent account activity to ensure everything is correct: http://example.com/activity
+
+Account Team",1
+"Subject: Your email storage is almost full
+
+Hello,
+
+Clear storage or upgrade your plan here: http://example.com/upgrade-storage
+
+Mail Service",1
+"Subject: Confirm your identity to access documents
+
+Hi,
+
+Verify your identity to access shared documents: http://example.com/verify-docs
+
+Docs Service",1
+"Subject: Urgent: Payment verification required
+
+Dear Customer,
+
+We need to verify your recent payment. Confirm now: http://example.com/payment-verify
+
+Payments",1
+"Subject: Your account received a security notice
+
+Hello,
+
+Review the security notice for your account: http://example.com/security-notice
+
+Security Team",1
+"Subject: Verify your device to continue
+
+Hi,
+
+We need to verify your device before you can sign in: http://example.com/device-verify
+
+Support",1
+"Subject: Important: Confirm your vendor information
+
+Dear Vendor,
+
+Please confirm your vendor details for payment processing: http://example.com/vendor-verify
+
+Accounts Payable",1
+"Subject: Action required: Confirm attendee details
+
+Hello,
+
+Please confirm your details for the upcoming event: http://example.com/event-confirm
+
+Event Team",1
+"Subject: Update required: Terms of service change
+
+Hi,
+
+Please review and accept the updated terms of service: http://example.com/terms
+
+Legal",1
+"Subject: Urgent: Verify your cloud storage access
+
+Dear User,
+
+Verify access to your cloud storage here: http://example.com/cloud-verify
+
+Cloud Support",1
+"Subject: Account compromise suspected — immediate action
+
+Hello,
+
+We suspect your account was compromised. Secure it here: http://example.com/secure-account
+
+Security",1
+"Subject: Important: Confirm your emergency contact
+
+Hi,
+
+Please confirm your emergency contact details: http://example.com/emergency
+
+HR",1
+"Subject: Action needed: Validate your refund
+
+Dear Customer,
+
+Your refund is pending validation. Confirm details: http://example.com/validate-refund
+
+Support",1
+"Subject: Confirm your payment for invoice #7890
+
+Hello,
+
+Please confirm payment details to complete invoice #7890: http://example.com/confirm-payment
+
+Billing",1
+"Subject: Alert: Suspicious device connected
+
+Hi,
+
+A new device connected to your account. Review and remove if unknown: http://example.com/devices
+
+Security Team",1
+"Subject: Verify account to keep premium features
+
+Dear User,
+
+Confirm your account to retain premium features: http://example.com/verify-premium
+
+Support",1
+"Subject: Action required: Confirm beneficiary details
+
+Hello,
+
+Please confirm your beneficiary details for upcoming disbursement: http://example.com/beneficiary
+
+Finance Dept",1
+"Subject: Your trial is ending — confirm upgrade
+
+Hi,
+
+Your free trial ends soon. Upgrade to continue: http://example.com/upgrade-trial
+
+Sales Team",1
+"Subject: Important: Confirm your travel booking
+
+Dear Customer,
+
+Confirm your travel itinerary to secure your seat: http://example.com/confirm-booking
+
+Travel Desk",1
+"Subject: Verify your professional account
+
+Hello,
+
+Please verify your professional account to access employer resources: http://example.com/pro-verify
+
+Employer Support",1
+"Subject: Notice: Confirm subscription cancellation
+
+Hi,
+
+We received a request to cancel your subscription. If this wasn't you, confirm here: http://example.com/cancel
+
+Subscriptions",1
+"Subject: Urgent: Confirm your crypto wallet activity
+
+Dear User,
+
+Unusual activity detected in your wallet. Verify transactions: http://example.com/wallet-verify
+
+Crypto Support",1
+"Subject: Action needed: Confirm your charity donation
+
+Hello,
+
+Please confirm donation details to process your charitable gift: http://example.com/donate-confirm
+
+Charity Team",1
+"Subject: Important: Review your insurance claim
+
+Hi,
+
+Your insurance claim needs additional verification. Review here: http://example.com/claim
+
+Insurance Support",1
+"Subject: Confirm your account for passwordless login
+
+Dear User,
+
+Enable passwordless login by confirming your account: http://example.com/enable-passwordless
+
+Auth Team",1
+"Subject: Verify your vendor invoice for payment
+
+Hello,
+
+Please confirm the vendor invoice to proceed with payment: http://example.com/vendor-invoice
+
+AP Team",1
+"Subject: Immediate action required: Review payment dispute
+
+Hi,
+
+A payment dispute requires your attention. Review here: http://example.com/dispute
+
+Payments",1
+"Subject: Verify to receive attendance certificate
+
+Dear Participant,
+
+Confirm your details to receive the event certificate: http://example.com/certificate
+
+Events",1
+"Subject: Action required: Confirm your API key
+
+Hello,
+
+Confirm your API key details to continue using the developer platform: http://example.com/api-verify
+
+Developer Support",1
+"Subject: Verify your identity for background check
+
+Hi,
+
+We need additional documents to complete your background check: http://example.com/background
+
+HR Team",1
+"Subject: Important: Confirm your telehealth appointment
+
+Dear Patient,
+
+Confirm your telehealth appointment details here: http://example.com/telehealth
+
+Clinic Support",1
+"Subject: Alert: Unauthorized payment method added
+
+Hello,
+
+A new payment method was added to your account. If this wasn't you, review here: http://example.com/payment-methods
+
+Security Team",1
+"Subject: Confirm your donor account details
+
+Hi,
+
+Please confirm your donor details to continue supporting causes: http://example.com/donor
+
+Donations",1
+"Subject: Urgent: Verify your domain ownership
+
+Dear User,
+
+Verify domain ownership to avoid downtime: http://example.com/verify-domain
+
+Hosting Support",1
+"Subject: Action required: Confirm new device login
+
+Hello,
+
+A new device logged into your account. Confirm activity: http://example.com/confirm-device
+
+Account Security",1
+"Subject: Important: Payment authorization required
+
+Hi,
+
+Authorize the recent payment to avoid cancellation: http://example.com/authorize
+
+Payments Dept",1
+"Subject: Verify to access confidential files
+
+Dear User,
+
+You must verify to access confidential shared files: http://example.com/confidential
+
+File Service",1
+"Subject: Confirm your profile update
+
+Hello,
+
+We received a profile update request. Confirm changes to continue: http://example.com/confirm-profile
+
+Support",1
+"Subject: Final Warning: Confirm account ownership
+
+Hi,
+
+This is your final warning to confirm account ownership: http://example.com/confirm-ownership
+
+Account Team",1
+"Subject: Important: Link your bank account for refunds
+
+Dear Customer,
+
+Link your bank account to receive refunds: http://example.com/link-bank
+
+Refunds Department",1
+"Subject: Verify your login attempt from a new app
+
+Hello,
+
+A login from a new app was detected. Confirm if it was you: http://example.com/confirm-app
+
+Security",1
+"Subject: Action needed: Confirm new beneficiary
+
+Hi,
+
+A beneficiary was added to your account. Confirm if authorized: http://example.com/confirm-beneficiary
+
+Finance",1
+"Subject: Important: Confirm your email alias
+
+Dear User,
+
+Confirm your new email alias to receive messages: http://example.com/confirm-alias
+
+Mail Admin",1
+"Subject: Confirm your donation receipt
+
+Hello,
+
+Confirm your receipt to download the donation certificate: http://example.com/receipt
+
+Charity Admin",1

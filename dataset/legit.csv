@@ -1,0 +1,731 @@
+Email Text,Label
+"Subject: Meeting Reminder: Project Sync Tomorrow
+
+Hi Team,
+
+This is a reminder for our project sync tomorrow at 10:00 AM in Meeting Room A. Please bring your status updates.
+
+Best,
+Project Manager",0
+"Subject: Invoice for Your Recent Purchase
+
+Hello,
+
+Thank you for your purchase. Attached is the invoice for your order #45231. Let us know if you have any questions.
+
+Regards,
+Sales Team",0
+"Subject: Your Subscription Receipt
+
+Dear Customer,
+
+Thanks for renewing your subscription. Your receipt is attached. Enjoy the premium features!
+
+Support Team",0
+"Subject: Welcome to the Newsletter
+
+Hi,
+
+Thanks for subscribing to our newsletter. You'll receive weekly updates on product news and tips.
+
+Cheers,
+The Team",0
+"Subject: Appointment Confirmation — Dental Clinic
+
+Hello,
+
+Your dental appointment is confirmed for June 12 at 3:30 PM. Please arrive 10 minutes early.
+
+Sincerely,
+Clinic Reception",0
+"Subject: Event Registration Successful
+
+Dear Participant,
+
+Thank you for registering for the webinar. We'll send the access link before the event.
+
+Events Team",0
+"Subject: Password Changed Successfully
+
+Hi,
+
+Your password was changed successfully. If you did not perform this action, contact support immediately.
+
+Security Team",0
+"Subject: Weekly Report Attached
+
+Hello,
+
+Please find the weekly performance report attached. Let me know if you'd like any changes.
+
+Thanks,
+Analyst",0
+"Subject: Your Flight Booking Confirmation
+
+Dear Passenger,
+
+Your flight booking is confirmed. Your itinerary is attached. Have a pleasant journey!
+
+Airline Support",0
+"Subject: Team Outing — RSVP
+
+Hi Everyone,
+
+We're planning a team outing next Friday. Please RSVP by Wednesday so we can confirm numbers.
+
+Regards,
+HR",0
+"Subject: Delivery Confirmation
+
+Hello,
+
+Your package has been delivered. If you did not receive it, contact customer service.
+
+Shipping Team",0
+"Subject: Quarterly Newsletter — Highlights
+
+Dear Subscriber,
+
+Here are the highlights from this quarter, including product updates and customer stories.
+
+Best regards,
+Communications",0
+"Subject: Course Enrollment Confirmation
+
+Hi,
+
+You're now enrolled in the online course. Access details have been sent to your student portal.
+
+Education Team",0
+"Subject: Account Statement Ready
+
+Dear Customer,
+
+Your monthly account statement is now available. Log in to view the details.
+
+Banking Services",0
+"Subject: Appointment Reminder — Car Service
+
+Hello,
+
+Reminder: Your car service appointment is scheduled for July 4 at 9:00 AM.
+
+Service Center",0
+"Subject: Project Proposal Feedback
+
+Hi,
+
+Thanks for the proposal. Please see my comments inline and let's discuss tomorrow.
+
+Regards,
+Colleague",0
+"Subject: Subscription Renewal Notice
+
+Dear User,
+
+Your subscription will renew on August 1. No action is required unless you wish to cancel.
+
+Support Team",0
+"Subject: Update: Office Holiday Schedule
+
+Hello Team,
+
+The office will be closed next Monday for the public holiday. Enjoy your time off!
+
+Management",0
+"Subject: New Comment on Your Document
+
+Hi,
+
+Someone commented on your shared document. Click here to view the feedback in the editor.
+
+Collaboration Platform",0
+"Subject: Payment Received — Thank You
+
+Dear Customer,
+
+We received your payment. Thank you for settling invoice #8873.
+
+Billing Department",0
+"Subject: Welcome to Our Service
+
+Hello,
+
+Welcome aboard! We're glad to have you. Your account setup is almost complete.
+
+Customer Success",0
+"Subject: Reminder: Performance Review
+
+Hi,
+
+This is a reminder for your performance review scheduled next Tuesday at 2 PM.
+
+HR Team",0
+"Subject: Order Shipped — Tracking Info
+
+Dear Customer,
+
+Your order has been shipped. Track it using the following number: TRK123456.
+
+Shipping Dept",0
+"Subject: Your Feedback Matters
+
+Hello,
+
+Please take a short survey to help us improve our services. It should take less than 3 minutes.
+
+Customer Experience",0
+"Subject: System Maintenance Notification
+
+Hi,
+
+Scheduled maintenance will occur this weekend. The system may be unavailable for up to 2 hours.
+
+IT Support",0
+"Subject: Welcome Packet for New Employees
+
+Dear New Hire,
+
+Welcome to the company! Attached is the welcome packet with onboarding details.
+
+HR",0
+"Subject: Class Schedule Update
+
+Hello,
+
+Please note the class schedule has been updated. Check the student portal for details.
+
+Registrar",0
+"Subject: Reminder — Utility Bill Due
+
+Dear Resident,
+
+Your utility bill is due on the 15th. Please ensure payment to avoid late fees.
+
+Billing Office",0
+"Subject: Newsletter: Tips for Remote Work
+
+Hi,
+
+In this edition we share best practices for staying productive while working remotely.
+
+Editorial Team",0
+"Subject: Confirmation: Volunteer Signup
+
+Hello,
+
+Thank you for signing up to volunteer. We'll send more details soon.
+
+Volunteer Coordinator",0
+"Subject: Invitation: Product Demo
+
+Dear Guest,
+
+You're invited to a product demo next Thursday. Register to secure your spot.
+
+Sales Team",0
+"Subject: Your Account Activity Summary
+
+Hi,
+
+Here's a summary of your account activity for the past month. Let us know if you notice anything unusual.
+
+Support",0
+"Subject: Confirmation: Hotel Reservation
+
+Dear Guest,
+
+Your hotel reservation is confirmed. We look forward to welcoming you.
+
+Reservations",0
+"Subject: Reminder: Submit Timesheets
+
+Hello Team,
+
+Please submit your timesheets by Friday end of day to ensure timely payroll processing.
+
+Operations",0
+"Subject: New Feature Release Notes
+
+Hi,
+
+We've released new features this week. See the release notes for details and instructions.
+
+Product Team",0
+"Subject: Thank You for Attending
+
+Dear Attendee,
+
+Thank you for attending the workshop. We appreciate your participation and feedback.
+
+Event Team",0
+"Subject: Confirmation: Donation Received
+
+Hello,
+
+Thank you for your generous donation. A receipt has been emailed to you.
+
+Charity Org",0
+"Subject: Welcome — Your Account is Active
+
+Hi,
+
+Your account is now active. You can log in and start using the service.
+
+Onboarding Team",0
+"Subject: Reminder: Update Your Profile
+
+Dear User,
+
+Please update your profile to keep your contact information current.
+
+Account Services",0
+"Subject: Your License Renewal Reminder
+
+Hello,
+
+Your license will expire soon. Please complete the renewal to avoid service interruption.
+
+Licensing",0
+"Subject: Team Meeting Notes Attached
+
+Hi,
+
+Meeting notes from today's session are attached. Please review and add any missing points.
+
+Team Lead",0
+"Subject: Your Order Has Been Delivered
+
+Dear Customer,
+
+We're happy to inform you that your order was delivered successfully.
+
+E-commerce Team",0
+"Subject: Security Update Applied
+
+Hello,
+
+A security update was applied to your account. No action is required.
+
+IT Security",0
+"Subject: Monthly Newsletter — Community Highlights
+
+Hi,
+
+This month's newsletter features community projects and member stories.
+
+Community Team",0
+"Subject: Your Reservation Reminder
+
+Dear Guest,
+
+This is a reminder for your reservation tomorrow evening. Please contact us for any changes.
+
+Reservations",0
+"Subject: Confirmation: Scholarship Award
+
+Hello,
+
+Congratulations! You've been awarded a scholarship. Details are in the attached letter.
+
+Admissions",0
+"Subject: Update: Billing Address Changed
+
+Hi,
+
+Your billing address was updated successfully. If this wasn't you, contact support.
+
+Billing Support",0
+"Subject: Important Tax Document Available
+
+Dear Taxpayer,
+
+Your tax documents are now available in your account. Download them at your convenience.
+
+Tax Services",0
+"Subject: Release: Mobile App Update
+
+Hello,
+
+A new version of the mobile app is available in the store with performance improvements.
+
+Product Team",0
+"Subject: Event Follow-Up & Slides
+
+Hi,
+
+Thanks for joining. We've attached the slides and recording from the session.
+
+Events Team",0
+"Subject: Reminder: Submit Project Draft
+
+Dear Student,
+
+Please submit your project draft by the end of the week for review.
+
+Course Instructor",0
+"Subject: Confirmation: Medical Test Results
+
+Hello,
+
+Your medical test results are available. Please log in to view them securely.
+
+Clinic",0
+"Subject: Your Subscription Preferences Updated
+
+Hi,
+
+Your email preferences have been updated as requested.
+
+Support Team",0
+"Subject: Welcome to the Beta Program
+
+Dear Participant,
+
+Welcome to the beta. We'll be collecting feedback throughout the trial period.
+
+Product Team",0
+"Subject: Reminder: Community Clean-Up Day
+
+Hello,
+
+Join us this Saturday for the community clean-up. Meet at the park at 8 AM.
+
+Community Coordinator",0
+"Subject: Order Confirmation — Electronics
+
+Dear Customer,
+
+Thank you for your order. Your confirmation number is ORD45678.
+
+E-commerce",0
+"Subject: Confirmation: Workshop Enrollment
+
+Hi,
+
+You're enrolled in the upcoming workshop. We'll send logistics shortly.
+
+Training Team",0
+"Subject: New Comment on Your Blog Post
+
+Hello,
+
+Someone commented on your post. Log in to reply and engage with the reader.
+
+Blog Admin",0
+"Subject: Reminder: Update Emergency Contacts
+
+Dear Staff,
+
+Please update your emergency contact information in the HR portal.
+
+HR",0
+"Subject: Payment Confirmation — Utility
+
+Hi,
+
+Your utility payment was received. Thank you for paying on time.
+
+Billing Dept",0
+"Subject: Laptop Repair Complete
+
+Hello,
+
+Your laptop repair is complete and ready for pickup at the service center.
+
+Service Center",0
+"Subject: Monthly Usage Summary
+
+Dear Customer,
+
+Here is your monthly usage summary with helpful tips to optimize your plan.
+
+Support Team",0
+"Subject: Notice: Policy Renewal Reminder
+
+Hi,
+
+Your policy is up for renewal soon. Review the options and renew if desired.
+
+Insurance Team",0
+"Subject: Reminder: Parent-Teacher Meeting
+
+Dear Parent,
+
+This is a reminder for the upcoming parent-teacher meeting next Thursday.
+
+School Office",0
+"Subject: Confirmation: Account Linked Successfully
+
+Hello,
+
+Your account has been linked with the external service successfully.
+
+Support",0
+"Subject: Invitation: Join Our Advisory Panel
+
+Hi,
+
+We invite you to join our advisory panel. Share your insights and help shape the product.
+
+Research Team",0
+"Subject: Thank You for Your Purchase
+
+Dear Customer,
+
+We appreciate your purchase. Your order is being processed and will ship soon.
+
+Sales",0
+"Subject: System Access Granted
+
+Hello,
+
+Access to the requested system has been granted. Use your credentials to log in.
+
+IT Admin",0
+"Subject: Confirmation: Profile Picture Updated
+
+Hi,
+
+Your profile picture was updated successfully.
+
+Account Services",0
+"Subject: Reminder: Complete Onboarding Tasks
+
+Dear New Hire,
+
+Please complete the onboarding tasks listed in your welcome packet within the first week.
+
+HR Team",0
+"Subject: Notification: Class Canceled
+
+Hello,
+
+Today's class has been canceled due to instructor illness. We'll reschedule soon.
+
+Course Admin",0
+"Subject: Confirmation: Service Appointment
+
+Hi,
+
+Your service appointment is confirmed. Our technician will arrive between 1-3 PM.
+
+Support",0
+"Subject: Release: Security Patch Notes
+
+Dear User,
+
+A security patch was released for the platform. No action is needed from your side.
+
+Product Security",0
+"Subject: Thank You for Donating
+
+Hello,
+
+Thank you for your donation. We are grateful for your support.
+
+Charity Team",0
+"Subject: Reminder: Library Book Due
+
+Hi,
+
+Your borrowed library book is due in 3 days. Please return or renew it.
+
+Library Services",0
+"Subject: Confirmation: Course Completion
+
+Dear Student,
+
+Congratulations on completing the course. Your certificate is available for download.
+
+Education Team",0
+"Subject: Update: Shipping Delays
+
+Hello,
+
+Due to high demand, shipping may be delayed. We apologize and appreciate your patience.
+
+Customer Support",0
+"Subject: Reminder: Update Software Passwords
+
+Hi,
+
+As a security best practice, please update your software passwords regularly.
+
+IT Security",0
+"Subject: Invitation: Networking Breakfast
+
+Dear Colleague,
+
+Join us for a networking breakfast next Wednesday. RSVP to reserve your seat.
+
+Community Team",0
+"Subject: Confirmation: Volunteer Hours Recorded
+
+Hello,
+
+Your volunteer hours have been recorded in our system. Thank you for your time.
+
+Coordination Team",0
+"Subject: Reminder: Course Assignment Deadline
+
+Hi,
+
+This is a reminder that the assignment is due Sunday at midnight. Submit via the portal.
+
+Instructor",0
+"Subject: Confirmation: Donation Acknowledgement
+
+Dear Supporter,
+
+We acknowledge receipt of your donation. A tax receipt has been issued.
+
+Development Office",0
+"Subject: Maintenance Completed Successfully
+
+Hello,
+
+Scheduled maintenance has been completed. All systems are operational.
+
+IT Services",0
+"Subject: Thank You for Your Feedback
+
+Hi,
+
+We appreciate your feedback and will consider it for future improvements.
+
+Customer Success",0
+"Subject: Confirmation: Appointment Rescheduled
+
+Dear Client,
+
+Your appointment has been rescheduled per your request. New time is noted in your calendar.
+
+Reception",0
+"Subject: Reminder: Submit Expense Reports
+
+Hello Team,
+
+Please submit expense reports by Friday for reimbursement processing.
+
+Finance",0
+"Subject: Update: Campus Access Hours
+
+Hi,
+
+Campus access hours have changed for the semester. Check the noticeboard for details.
+
+Campus Admin",0
+"Subject: Confirmation: Gift Card Sent
+
+Dear Customer,
+
+Your gift card was sent to the recipient successfully.
+
+Support Team",0
+"Subject: Invitation: Beta Feedback Session
+
+Hello,
+
+We invite you to provide feedback in our beta session. Your input is valuable to us.
+
+Product Research",0
+"Subject: Your License Renewal Reminder
+
+Hello,
+
+Your license will expire soon. Please complete the renewal to avoid service interruption.
+
+Licensing
+
+Note: This is a confirmation message.",0
+"Subject: Team Meeting Notes Attached
+
+Hi,
+
+Meeting notes from today's session are attached. Please review and add any missing points.
+
+Team Lead
+
+Note: This is a confirmation message.",0
+"Subject: Your Order Has Been Delivered
+
+Dear Customer,
+
+We're happy to inform you that your order was delivered successfully.
+
+E-commerce Team
+
+Note: This is a confirmation message.",0
+"Subject: Security Update Applied
+
+Hello,
+
+A security update was applied to your account. No action is required.
+
+IT Security
+
+Note: This is a confirmation message.",0
+"Subject: Monthly Newsletter — Community Highlights
+
+Hi,
+
+This month's newsletter features community projects and member stories.
+
+Community Team
+
+Note: This is a confirmation message.",0
+"Subject: Your Reservation Reminder
+
+Dear Guest,
+
+This is a reminder for your reservation tomorrow evening. Please contact us for any changes.
+
+Reservations
+
+Note: This is a confirmation message.",0
+"Subject: Confirmation: Scholarship Award
+
+Hello,
+
+Congratulations! You've been awarded a scholarship. Details are in the attached letter.
+
+Admissions
+
+Note: This is a confirmation message.",0
+"Subject: Update: Billing Address Changed
+
+Hi,
+
+Your billing address was updated successfully. If this wasn't you, contact support.
+
+Billing Support
+
+Note: This is a confirmation message.",0
+"Subject: Important Tax Document Available
+
+Dear Taxpayer,
+
+Your tax documents are now available in your account. Download them at your convenience.
+
+Tax Services
+
+Note: This is a confirmation message.",0
+"Subject: Release: Mobile App Update
+
+Hello,
+
+A new version of the mobile app is available in the store with performance improvements.
+
+Product Team
+
+Note: This is a confirmation message.",0
+"Subject: Event Follow-Up & Slides
+
+Hi,
+
+Thanks for joining. We've attached the slides and recording from the session.
+
+Events Team
+
+Note: This is a confirmation message.",0

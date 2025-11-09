@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Phishing Email Detector</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🕵️‍♂️ Phishing Email Detector</h1>
+      <p>
+        Paste your email text below to check if it's phishing or legitimate.
+      </p>
+
+      <textarea
+        id="emailText"
+        placeholder="Type or paste email content here..."
+      ></textarea>
+      <button id="checkButton">Check Email</button>
+
+      <div id="result" class="hidden">
+        <h2>Result:</h2>
+        <p id="prediction"></p>
+        <p id="confidence"></p>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("checkButton")
+        .addEventListener("click", async () => {
+          const text = document.getElementById("emailText").value.trim();
+          const resultDiv = document.getElementById("result");
+          const prediction = document.getElementById("prediction");
+          const confidence = document.getElementById("confidence");
+
+          if (!text) {
+            alert("Please enter some email text!");
+            return;
+          }
+
+          try {
+            const response = await fetch("http://127.0.0.1:5000/predict", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ text }),
+            });
+
+            const data = await response.json();
+
+            if (data.error) {
+              prediction.textContent = `Error: ${data.error}`;
+              resultDiv.classList.remove("hidden");
+              return;
+            }
+
+            prediction.textContent = `Prediction: ${data.prediction.toUpperCase()}`;
+            confidence.textContent = `Confidence: ${data.confidence}%`;
+            resultDiv.classList.remove("hidden");
+          } catch (error) {
+            prediction.textContent = "Error connecting to server.";
+            resultDiv.classList.remove("hidden");
+          }
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+# Virtual envs
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
+Thumbs.db
+# Models (ignored by default)
+models/
+# env files
+.env

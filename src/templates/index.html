@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Phishing Detector</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      textarea {
+        width: 100%;
+        height: 150px;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      #result {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 4px;
+      }
+      .phishing {
+        background-color: #ffebee;
+        border: 1px solid #ffcdd2;
+      }
+      .legitimate {
+        background-color: #e8f5e9;
+        border: 1px solid #c8e6c9;
+      }
+      .gauge {
+        width: 100%;
+        height: 20px;
+        background-color: #eee;
+        border-radius: 10px;
+        margin: 10px 0;
+        overflow: hidden;
+      }
+      .gauge-fill {
+        height: 100%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+      }
+      .loading {
+        display: none;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>📧 Email Phishing Detector</h1>
+      <p>
+        Enter an email text below to analyze it for potential phishing attempts.
+      </p>
+
+      <textarea
+        id="emailText"
+        placeholder="Paste your email text here..."
+      ></textarea>
+
+      <button onclick="analyzeEmail()">Analyze Email</button>
+
+      <div id="loading" class="loading">Analyzing... Please wait...</div>
+
+      <div id="result"></div>
+    </div>
+
+    <script>
+      function analyzeEmail() {
+        const emailText = document.getElementById("emailText").value.trim();
+        const resultDiv = document.getElementById("result");
+        const loadingDiv = document.getElementById("loading");
+
+        if (!emailText) {
+          alert("Please enter some email text to analyze");
+          return;
+        }
+
+        // Show loading
+        loadingDiv.style.display = "block";
+        resultDiv.innerHTML = "";
+
+        fetch("http://localhost:5000/predict", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ text: emailText }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // Hide loading
+            loadingDiv.style.display = "none";
+
+            // Create result HTML
+            const isPhishing = data.prediction === "phishing";
+            const resultClass = isPhishing ? "phishing" : "legitimate";
+            const resultHTML = `
+                    <div class="${resultClass}">
+                        <h3>Analysis Result:</h3>
+                        <p><strong>Verdict:</strong> ${
+                          isPhishing
+                            ? "⚠️ Phishing Email"
+                            : "✅ Legitimate Email"
+                        }</p>
+                        <p><strong>Confidence:</strong> ${data.confidence}%</p>
+                        <div class="gauge">
+                            <div class="gauge-fill" style="width: ${
+                              data.confidence
+                            }%; 
+                                background-color: ${
+                                  isPhishing ? "#ff5252" : "#4CAF50"
+                                }">
+                            </div>
+                        </div>
+                        <p><strong>Probability Breakdown:</strong></p>
+                        <ul>
+                            <li>Legitimate: ${data.probability.legitimate}%</li>
+                            <li>Phishing: ${data.probability.phishing}%</li>
+                        </ul>
+                    </div>
+                `;
+            resultDiv.innerHTML = resultHTML;
+          })
+          .catch((error) => {
+            loadingDiv.style.display = "none";
+            resultDiv.innerHTML = `
+                    <div style="background-color: #fff3cd; padding: 15px; border-radius: 4px; border: 1px solid #ffeeba;">
+                        <h3>⚠️ Error</h3>
+                        <p>Could not analyze the email. Please make sure the server is running and try again.</p>
+                        <p>Error details: ${error.message}</p>
+                    </div>
+                `;
+          });
+      }
+    </script>
+  </body>
+</html>
