@@ -7,7 +7,16 @@
   </head>
   <body>
     <div class="container">
-      <h1>🕵️‍♂️ Phishing Email Detector</h1>
+      <div class="header">
+        <h1>🕵️♂️ Phishing Email Detector</h1>
+        <div id="authSection">
+          <button id="loginBtn" onclick="login()">Login with Microsoft</button>
+          <div id="userInfo" class="hidden">
+            <span id="userName"></span>
+            <button onclick="logout()">Logout</button>
+          </div>
+        </div>
+      </div>
       <p>
         Paste your email text below to check if it's phishing or legitimate.
       </p>
@@ -26,6 +35,49 @@
     </div>
 
     <script>
+      async function checkAuth() {
+        try {
+          const response = await fetch('/user', { credentials: 'include' });
+          return response.ok;
+        } catch {
+          return false;
+        }
+      }
+
+      function login() {
+        window.location.href = '/login';
+      }
+
+      function logout() {
+        fetch('/logout', { credentials: 'include' }).then(() => {
+          location.reload();
+        });
+      }
+
+      async function updateAuthUI() {
+        const isAuth = await checkAuth();
+        const loginBtn = document.getElementById('loginBtn');
+        const userInfo = document.getElementById('userInfo');
+        
+        if (isAuth) {
+          try {
+            const response = await fetch('/user', { credentials: 'include' });
+            const user = await response.json();
+            document.getElementById('userName').textContent = `Hello, ${user.displayName}`;
+            loginBtn.classList.add('hidden');
+            userInfo.classList.remove('hidden');
+          } catch {
+            loginBtn.classList.remove('hidden');
+            userInfo.classList.add('hidden');
+          }
+        } else {
+          loginBtn.classList.remove('hidden');
+          userInfo.classList.add('hidden');
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', updateAuthUI);
+
       document
         .getElementById("checkButton")
         .addEventListener("click", async () => {
@@ -39,16 +91,31 @@
             return;
           }
 
+          const isAuth = await checkAuth();
+          if (!isAuth) {
+            if (confirm('You need to login with Microsoft to use this service. Login now?')) {
+              login();
+            }
+            return;
+          }
+
           try {
-            const response = await fetch("http://127.0.0.1:5000/predict", {
+            const response = await fetch("/predict", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
+              credentials: 'include',
               body: JSON.stringify({ text }),
             });
 
             const data = await response.json();
 
             if (data.error) {
+              if (data.error === 'Authentication required') {
+                if (confirm('Session expired. Login again?')) {
+                  login();
+                }
+                return;
+              }
               prediction.textContent = `Error: ${data.error}`;
               resultDiv.classList.remove("hidden");
               return;
