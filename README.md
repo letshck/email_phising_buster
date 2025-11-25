@@ -1,6 +1,6 @@
 # email_phising_buster
 
-Phishing detector project — model, training and a Flask API to detect phishing emails.
+Phishing detector project: model, training and a Flask API to detect phishing emails.
 
 Run locally:
 1. Activate venv: `D:/emailphis/.venv/Scripts/activate.ps1`
