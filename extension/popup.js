@@ -25,8 +25,16 @@ document.addEventListener('DOMContentLoaded', async function() {
         showLoggedOutState();
       }
     } catch (error) {
-      showLoggedOutState();
+      // Server not running - use guest mode with fallback predictor
+      console.log('Auth server unavailable, using guest mode');
+      showGuestMode();
     }
+  }
+
+  function showGuestMode() {
+    authSection.style.display = 'none';
+    analysisSection.style.display = 'block';
+    userInfo.innerHTML = 'Guest Mode (Local Analysis)';
   }
 
   function showLoggedInState(user) {
@@ -42,7 +50,12 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
 
   loginBtn.addEventListener('click', function() {
-    chrome.tabs.create({ url: 'http://localhost:5000/login' });
+    // Only show login if server is available
+    try {
+      chrome.tabs.create({ url: 'http://localhost:5000/login' });
+    } catch (error) {
+      resultDiv.innerHTML = '<div class="result">Auth server is not running. Using local analysis mode.</div>';
+    }
   });
 
   logoutBtn.addEventListener('click', async function() {

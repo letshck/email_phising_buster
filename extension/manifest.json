@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Email Phishing Detector",
-  "version": "1.0",
-  "description": "Detect potential phishing attempts in emails",
+  "version": "1.0.0",
+  "description": "Detect potential phishing attempts in emails with AI-powered analysis",
   "permissions": [
     "activeTab",
     "scripting",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
     "http://localhost:5000/*",
@@ -15,21 +16,15 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    }
+    "default_title": "Email Phishing Detector"
   },
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
+      "matches": ["*://mail.google.com/*", "*://outlook.live.com/*", "*://outlook.office.com/*", "*://mail.yahoo.com/*"],
       "js": ["content.js"]
     }
   ],
-  "icons": {
-    "16": "images/icon16.png",
-    "48": "images/icon48.png",
-    "128": "images/icon128.png"
+  "background": {
+    "service_worker": "background.js"
   }
 }
